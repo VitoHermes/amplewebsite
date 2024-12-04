@@ -32,8 +32,8 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#F3F2FF]">
-            <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+        <nav className="fixed h-[100px] mx-auto top-0 left-0 right-0 z-10 bg-[#F3F2FF]">
+            <div className="flex h-[100px] container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                 <img
                     href={"/"}
                     src={"./logo.png"}
